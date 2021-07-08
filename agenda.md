@@ -21,13 +21,47 @@ Please note that we might not notice a pullrequest in time, but you are free to 
 
 
 
-## Meeting - X June 2021 - (time in ET)
+## Kickoff Meeting - 23 June 2021 - (time in ET)
 
 ### Agenda
+### Brainstorming about possible TOPICS for the group:
 
-1. Welcome and introductions
+During the kick off call on the 23.06.2021  the group brainstormed and collected topics for the wg-applied crypto. In the next step we need to clarify which topics are relevant.
 
+SSI cryptographic protocol topics
+	- BBS+ (supports the ability for predicate proofs)
+	- Revocation methods
+	- Which crypto primitives we should use / we recommend:
+		- Curves,etc.
+
+General cryptographic topics relevant for SSI:
+	- Java Object Signing and Encryption (JOSE)
+	- Fuzzy encryption
+	- Use of Pseudonyms (stable ID between holder and verifier -> for a recovery method without correlation)
+
+Education, Description and Definitions:
+Definitions, glossary and concepts for onboarding and education.
+Focus on good sources and links and explaining what we use in the group an mean
+	- Group signatures
+	- Message encryption
+	- Multi message Signatures
+	- Zero knowledge Proofs (SNarks, SPARCs,….)
+	- Cryptographic Accumulators
+	- Predicate proofs (membership and non membership proofs)
+	- Pairing crypto 
+	- Definitions of problems in SSI which we can maybe solve with crypto
+		- Correlation
+	- PoV to actual topics
+	- Different kind of attacks on crypto
+	- Organise code/security reviews of libraries we use 
+	- Review of crypto papers
 
 ### Attendees
-
+Andreas Freitag
+Tobias Looker
+Andrew Whitehead
+Daniel Buchner
+David Waite
+Jeremie Miller
+Steve Todd
 
